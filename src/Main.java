@@ -13,7 +13,7 @@ public class Main {
             int total = balance + amount + bonus;
             System.out.println("Текущий счет: " + total + " рублей");
 
-        } else if (amount < 1000) {
+        } else {
             bonus = 0;
 
             System.out.println("Пополнение: " + amount + " рублей");
